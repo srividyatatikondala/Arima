@@ -6,5 +6,6 @@ matplotlib
 seaborn
 statsmodels
 scikit-learn
+pydantic<2.0.0
 cohere
 langchain
