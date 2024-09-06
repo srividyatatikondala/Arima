@@ -39,6 +39,18 @@ Answer:
 prompt_template = PromptTemplate(template=template, input_variables=["context", "question"])
 
 st.set_page_config(page_title="Agri-Commodity Forecast & Chatbot", layout="wide")
+st.markdown(
+    """
+    <link rel="manifest" href="/manifest.json">
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+    }
+    </script>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.markdown(
     """
