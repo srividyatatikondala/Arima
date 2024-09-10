@@ -4,8 +4,6 @@
 
 The **Agricultural Commodity Price Forecasting System** is an advanced tool designed to predict future price trends and support decision-making for stakeholders in the agriculture sector. By combining multiple machine learning models, such as **ARIMA, LSTM,** and **Prophet**, the platform delivers accurate and reliable forecasts for various commodities, including pulses, vegetables, and grains.
 
-![Agricultural Commodity Forecasting](images/122.png)
-
 ## Key Features
 
 - **Hybrid Forecasting Models**: Integrates **ARIMA + LSTM** and **ARIMA + Prophet** to capture both linear and non-linear patterns affecting commodity prices.
