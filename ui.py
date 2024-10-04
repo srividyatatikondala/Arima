@@ -93,7 +93,7 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/home/murali/Downloads/commodity.csv')
+    df = pd.read_csv('/home/srividya/Downloads/updated_daily_price - updated_daily_price.csv')
     return df
 
 data = load_data()
