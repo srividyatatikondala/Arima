@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 import seaborn as sns
 import cohere
 from langchain.chains import LLMChain
-from langchain_core.prompts import PromptTemplate
+from langchain.prompts import PromptTemplate
 
 # Cohere integration for chatbot functionality
 def generate_text_with_cohere(prompt, cohere_client):
